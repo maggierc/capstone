@@ -1,0 +1,37 @@
+body {
+  overflow: hidden;
+  color: black;
+}
+
+#reference {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background: url('../imgs/deck_final.png');
+  background-size: cover;
+  top: 0;
+  left: 0;
+}
+
+.container{
+  width: 80vw;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+#gallery {
+  opacity: 0.5;
+  position: absolute;
+  background: red;
+  height: 38%;
+  width: 72%;
+  margin: auto;
+  left: 15%;
+  margin-top: 18%;
+}
+
+.galleryImgs {
+  background: blue;
+  border: 1px solid black;
+}
