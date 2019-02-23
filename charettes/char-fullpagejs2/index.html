@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- FullPage CSS -->
+    <link rel="stylesheet" type="text/css" href="src/fullpage.css" />
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:200,300,400,500,600,700,900" rel="stylesheet">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <!-- Java Link -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+    <title>Keystone Draft</title>
+  </head>
+  <body>
+    <div class="" id="readplayButton"></div>
+
+
+    <div id="fullpage">
+          <section id="section1" class="section">
+            <div class="container">
+              <div class="col-md-12 text-center">
+                <h1>Bootstrap 3 + fullpage.js<br>
+                  <small>A working example of the pairing.</small>
+                </h1>
+                <p>Scroll down to move from section to section. The vertical pagination will love accordingly. This is powered by <a href="https://alvarotrigo.com/fullPage/">fullpage.js</a> and is pretty darn cool.</p>
+              </div>
+            </div>
+          </section>
+            <section id="section2" class="section">
+            <div class="container">
+              <div class="col-md-6 text-center">
+                <p>Section 2</p>
+              </div>
+              <div class="col-md-6 text-center">
+                  <p>with 2 columns in it.</p>
+                  <img class="img-responsive" src="http://placehold.it/1337">
+              </div>
+            </div>
+          </section>
+          <section id="section3" class="section">
+            <div class="container">
+              <div class="col-md-12 text-center">
+                <p>Section 3</p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+
+
+
+
+
+
+
+
+    <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "easeInOutCubic". -->
+    <script src="vendors/easings.min.js"></script>
+
+
+    <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+    <script type="text/javascript" src="src/fullpage.js"></script>
+    <script type="text/javascript">
+    	var myFullpage = new fullpage('#fullpage', {
+        anchors: ['first', 'second', 'third', 'fourth'],
+    		sectionsColor: ['#222', '#444', '#777', '#999', '#bbb'],
+        navigation: true,
+        navigationPosition: 'right',
+        navigationTooltips: ['First page', 'Second page', 'Third', 'Fourth']
+    	});
+    </script>
+
+    <!-- Optional JavaScript -->
+
+
+    <!-- My JavaScript -->
+  </body>
+</html>
