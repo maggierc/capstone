@@ -1,16 +1,11 @@
+
 body {
   background: #eee;
   font-family: "Noto Serif SC", serif;
+  transition: 1s ease;
+  cursor: default;
 }
 
-a {
-  color: black;
-}
-
-a:hover {
-  color: black;
-  text-decoration: none;
-}
 
 #reference {
   position: absolute;
@@ -54,8 +49,9 @@ a:hover {
 
 
 .galleryImgs {
-  background: #2c3e50;
+  /* background: #2c3e50; */
   margin: 0 0.5%;
+  padding: 0;
 }
 
 #firstHTML h1 {
@@ -65,6 +61,8 @@ a:hover {
 
 #selectPatient {
   padding-top: 7%;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 300;
 }
 
 
@@ -99,6 +97,46 @@ a:hover {
   padding-top: 3%;
   opacity: 0.7;
 }
+
+/* images for gallery */
+
+.patient {
+  height: 100%;
+  width: 100%;
+  transition: 0.5s ease;
+}
+
+#phineasImg {
+  background: url('../imgs/Phineas3.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+#cliveImg {
+  background: url('../imgs/clive2.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+#louisImg {
+  background: url('../imgs/louis-victor-leborgne.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+#kimImg {
+  background: url('../imgs/kim_peek.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.overlay {
+  position: absolute;
+  opacity: 0.4;
+  transition: 0.5s ease;
+  background-blend-mode: multiply;
+}
+
 
 /*  */
 
