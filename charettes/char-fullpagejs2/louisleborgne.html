@@ -17,26 +17,43 @@
 
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="stylesheet" href="css/louis.css" type="text/css">
+
 
     <!-- Java Link -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
     <title>Keystone Draft</title>
   </head>
-  <body id="playHTML">
-      <a href="index.html">    
-        <div class="" id="readplayButton"></div>
-      </a>
+  <body>
+    <div class="button" id="readplayButton"></div>
+
+    <!-- <a href="play.html">    </a> -->
+    <nav class="navbar fixed-top">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+             <li class="nav-item active">
+               <a class="nav-link" id="homeLink" href="../char-structure/index.html">Grey Matter</a>
+               <div class="underline"></div>
+             </li>
+           </ul>
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+             <li class="nav-item active">
+               <a class="nav-link" href="#">Next Patient<span class="sr-only">(current)</span></a>
+             </li>
+           </ul>
+      </nav>
+      <div class="ClipOn" id="masked-page"></div>
+
 
     <div id="fullpage">
           <section id="section1" class="section">
             <div class="container">
-              <div class="col col-lg-8">
+              <div class="col col-lg-12">
                 <div id="title">
                   <h1>The</h1>
                   <h1>Story of</h1>
-                  <h1>Clive Wearing</h1>
+                  <h1>Louis Leborgne</h1>
                 </div>
                 <p id="scrollDown">Scroll Down</p>
               </div>
@@ -126,6 +143,7 @@
     <script type="text/javascript">
     	var myFullpage = new fullpage('#fullpage', {
         anchors: ['intro', 'who', 'how', 'what', 'why'],
+    		// sectionsColor: ['#2c3e50', '#2c3e50', '#2c3e50', '#2c3e50', '#2c3e50'],
         navigation: true,
         navigationPosition: 'right',
         navigationTooltips: ['intro', 'who', 'how', 'what', 'why']
@@ -136,5 +154,6 @@
 
 
     <!-- My JavaScript -->
+    <script src="script.js">  </script>
   </body>
 </html>

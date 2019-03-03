@@ -22,6 +22,7 @@ section {
   padding: 2% 9%;
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 100;
+
 }
 
 .nav-link {
@@ -55,7 +56,7 @@ p {
 }
 
 #title {
-  padding-top: 30%;
+  padding-top: 20%;
 }
 
 #title h1 {
@@ -67,6 +68,20 @@ p {
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 100;
   letter-spacing: 0.04em;
+}
+
+.playText {
+  display: none;
+  animation: floating 10s ease infinite;
+}
+
+.readText {
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }
 }
 
 /* Indentation / Positioning */
@@ -173,22 +188,6 @@ a:hover {
 }
 
 
-/* play.html */
-
-#playHTML {
-  background: url("../imgs/Asset 1.png");
-  background-size: cover;
-}
-
-#playHTML #readplayButton:hover {
-  background: #2c3e50;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  box-shadow: 0px 0px 20px #fff;
-  animation: none;
-  cursor: pointer;
-}
 
 /* masked page */
 #masked-page {
@@ -199,6 +198,7 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   transition: 1s ease-in;
+
 }
 
 .ClipOn {

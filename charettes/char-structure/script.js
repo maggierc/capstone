@@ -1,11 +1,21 @@
 $( document ).ready(function() {
 
+  // $("a").click(function(e) {
+  //     e.preventDefault();
+  //     $link = $(this).attr("../char-fullpagejs2/index.html");
+  //     // $(".container").fadeOut(200,function(){
+  //     //   window.location =  $link;
+  //     //   });
+  //     $("body").fadeIn("slow");
+  //     });
+
+
   $( "#cliveGallery .overlay" )
     .mouseenter(function() {
       $(".overlay").css("background", "#2c3e50");
       $('body').css("background", "#2c3e50");
       $('body').css("color", "#fff");
-      $('#cliveImg').css("box-shadow", "0px 0px 50px rgba(255, 255, 255, 0.4)");
+      $('#cliveImg').css("box-shadow", "0px 0px 20px rgba(255, 255, 255, 0.2)");
        $('#textReplace').text( "Clive Wearing" );
     })
     .mouseleave(function() {
@@ -21,7 +31,7 @@ $( document ).ready(function() {
       $(".overlay").css("background", "#b83b5e");
       $('body').css("background", "#b83b5e");
       $('body').css("color", "#fff");
-      $('#phineasImg').css("box-shadow", "0px 0px 50px rgba(255, 255, 255, 0.4)");
+      $('#phineasImg').css("box-shadow", "0px 0px 20px rgba(255, 255, 255, 0.2)");
       $('#textReplace').text( "Phineas Gage" );
     })
     .mouseleave(function() {
@@ -37,7 +47,7 @@ $( document ).ready(function() {
       $(".overlay").css("background", "#6a2c70");
       $('body').css("background", "#6a2c70");
       $('body').css("color", "#fff");
-      $('#louisImg').css("box-shadow", "0px 0px 50px rgba(255, 255, 255, 0.4)");
+      $('#louisImg').css("box-shadow", "0px 0px 20px rgba(255, 255, 255, 0.2)");
       $('#textReplace').text( "Louis Victor Leborgne" );
     })
     .mouseleave(function() {
@@ -53,7 +63,7 @@ $( document ).ready(function() {
       $(".overlay").css("background", "#ffb228");
       $('body').css("background", "#ffb228");
       $('body').css("color", "#fff");
-      $('#kimImg').css("box-shadow", "0px 0px 50px rgba(255, 255, 255, 0.4)");
+      $('#kimImg').css("box-shadow", "0px 0px 20px rgba(255, 255, 255, 0.2)");
       $('#textReplace').text( "Kim Peek" );
 
     })
