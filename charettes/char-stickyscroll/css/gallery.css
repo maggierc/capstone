@@ -1,0 +1,83 @@
+
+body {
+  background: #eee;
+  font-family: "Noto Serif SC", serif;
+  transition: 0.75s ease;
+  cursor: default;
+  /* display: none; */
+}
+
+
+.container {
+  width: 80vw;
+  height: 100vh;
+  margin: auto;
+}
+
+.container{
+  text-align: center;
+}
+
+.row {
+  /* background: #fbd157; */
+}
+
+#gallery {
+  height: 60%;
+  padding-top: 10%;
+}
+
+.galleryImgs {
+  padding: 0;
+}
+
+h1 {
+  padding-top: 5%;
+  font-weight: 400;
+}
+
+#selectPatient {
+  padding-top: 7%;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 300;
+}
+
+
+/* images for gallery */
+
+.patient {
+  height: 100%;
+  width: 100%;
+  transition: 0.25s ease;
+}
+
+#phineasImg {
+  background: url('../../imgs/Phineas3.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+#cliveImg {
+  background: url('../../imgs/clive2.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+#louisImg {
+  background: url('../../imgs/louis-victor-leborgne.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+#kimImg {
+  background: url('../../imgs/kim_peek.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.overlay {
+  position: absolute;
+  opacity: 0.4;
+  transition: 0.5s ease;
+  background-blend-mode: multiply;
+}

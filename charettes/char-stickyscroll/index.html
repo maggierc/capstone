@@ -17,14 +17,80 @@
 
 
       <!-- My CSS -->
-      <link rel="stylesheet" href="main.css" type="text/css">
+      <link rel="stylesheet" href="css/gallery.css" type="text/css">
+
 
       <!-- Java Link -->
       <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
-      <title>Grey Matter</title>
+      <title>The Gallery</title>
   </head>
   <body>
+
+    <body>
+        <!-- <div id="reference"></div> -->
+
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <h1>Grey Matter</h1>
+              </div>
+            </div>
+            <div class="row" id="gallery">
+                <div class="col galleryImgs" id="cliveGallery">
+                  <a href="#">
+                    <div class="patient overlay">  </div>
+                    <div class="patient" id="cliveImg">  </div>
+                  </a>
+                </div>
+                <div class="col galleryImgs" id="phineasGallery">
+                    <div class="patient overlay">  </div>
+                    <div class="patient" id="phineasImg">  </div>
+                </div>
+                <div class="col galleryImgs" id="louisGallery">
+                  <a href="louisleborgne.html">
+                    <div class="patient overlay">  </div>
+                    <div class="patient" id="louisImg">  </div>
+                  </a>
+                </div>
+                <div class="col galleryImgs" id="kimGallery">
+                  <div class="patient overlay">  </div>
+                  <div class="patient" id="kimImg">  </div>
+                </div>
+            </div>
+            <div class="row" id="selectPatient">
+              <div class="col">
+                <p><span id="textReplace">Select a patient to see their story</span></p>
+              </div>
+            </div>
+
+            <!-- <div id="Gallery">
+              <div class="galleryImgs"></div>
+              <div class="galleryImgs"></div>
+              <div class="galleryImgs"></div>
+              <div class="galleryImgs"></div>
+
+            </div> -->
+
+          </div>
+
+
+
+
+
+
+
+
+
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+      <!-- My JavaScript -->
+      <script src="js/gallery.js"></script>
 
   </body>
 </html>
