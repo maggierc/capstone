@@ -36,6 +36,11 @@ $(document).ready(function() {
             playFilter = false;
     });
 
+    $(window).scroll(function(){
+        $("#section1").css("opacity", 1 - $(window).scrollTop() / 400);
+
+      });
+
 
 
     // $('p.playText').mouseover(function(){

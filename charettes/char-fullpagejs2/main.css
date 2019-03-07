@@ -1,3 +1,4 @@
+
 .easing {
     -webkit-transition: all 0.7s ease-out;
     -moz-transition: all 0.7s ease-out;
@@ -9,7 +10,7 @@ body {
   font-family: "Noto Serif SC", serif;
   color: #fff;
   cursor: default;
-  background: #2c3e50;
+  /* background: #2c3e50; */
 }
 
 section {
@@ -17,15 +18,37 @@ section {
   background-position: center center;
 }
 
+#bgmovement {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background: url("../imgs/background.gif");
+  background-position: center;
+  background-size: cover;
+  opacity: 0.3;
+  filter: blur(15px);
+  transition: 1s ease-in;
+}
+
 
 .navbar {
   padding: 2% 9%;
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 100;
-
+  width: 50%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 500;
+  text-align: center;
 }
 
+
 .nav-link {
+  position: relative;
+  left: 50px;
   color: #eee;
   opacity: 0.5;
   transition: 0.5s ease;
@@ -43,12 +66,19 @@ section {
 }
 
 .col {
-  padding-top: 10%;
+  padding-top: 5%;
 }
 
 p {
-  margin-bottom: 0.2rem;
-  font-size: 1.25rem;
+  margin-bottom: 0.1em;
+  font-size: 0.8em;
+}
+
+.sectionInfo p {
+  font-weight: 400;
+  font-size: 1em;
+  padding-bottom: 4%;
+  width: 40%;
 }
 
 #section1 .col {
@@ -56,14 +86,26 @@ p {
 }
 
 #title {
-  padding-top: 20%;
+  padding-top: 25%;
 }
 
 #title h1 {
-  font-size: 6em;
+  font-weight: 600;
+  font-size: 5em;
+}
+
+
+#title p {
+  padding-top: 2%;
+  font-size: 1em;
+  font-weight: 200;
+  width: 75%;
+  padding-bottom: 0;
+
 }
 
 #scrollDown {
+  padding-bottom: 0;
   padding-top: 5%;
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 100;
@@ -72,54 +114,105 @@ p {
 
 .playText {
   display: none;
-  animation: floating 10s ease infinite;
+  animation: floating 20s ease infinite;
+}
+
+.playText .paragraphInfo {
+  opacity: 0;
 }
 
 .readText {
 }
 
 @keyframes floating {
-    from { transform: translate(0,  0px); }
-    65%  { transform: translate(0, 15px); }
-    to   { transform: translate(0, -0px); }
+    0% { transform: translate(0px, 0px); }
+    35%  { transform: translate(-1px, 3px); }
+    50% { transform: translate(2px, 3px); }
+    65%  { transform: translate(1px, -1px); }
+    100%   { transform: translate(0px, 0px); }
+}
+
+p + span {
+  animation: flashing 1s infinite;
+}
+
+@keyframes floating {
+    0% { color: white; }
+    4% { color: white; }
+    5%  { color: yellow; }
+    6% { color: white; }
+    100% { color: white; }
 }
 
 /* Indentation / Positioning */
 
+.textBlock{
+  padding: 5% 0;
+}
+
 .indent1 {
-  text-indent: 10%;
+  text-indent: 5%;
 }
 
 .indent2 {
-  text-indent: 20%;
+  text-indent: 10%;
 }
 
 .indent3 {
-  text-indent: 30%;
+  text-indent: 15%;
 }
 
 .indent4 {
-  text-indent: 40%;
+  text-indent: 20%;
 }
 
 .indent5 {
-  text-indent: 50%;
+  text-indent: 25%;
 }
 
 .indent6 {
-  text-indent: 60%;
+  text-indent: 30%;
 }
 
 .indent7 {
-  text-indent: 70%;
+  text-indent: 35%;
 }
 
 .indent8 {
-  text-indent: 80%;
+  text-indent: 40%;
 }
 
 #afterMonth {
-  padding-top: 10%;
+  padding-top: 5%;
+}
+
+#section5 p {
+  padding-bottom: 5%;
+  font-weight: 300;
+  font-size: 1.1em;
+}
+
+/* Section Headers */
+
+.sectionInfo {
+
+  padding-bottom: 5%;
+}
+
+.sectionInfo h3 {
+  font-family: "Roboto", sans-serif;
+
+  font-weight: 400;
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+
+.underline {
+  display: block;
+  height: 1px;
+  width: 60%;
+  background: #fff;
+  margin: 10px 0px 30px 0px;
 }
 
 /* Learn More button */
@@ -197,14 +290,17 @@ a:hover {
   background-image: url("../imgs/Asset 1.png");
   background-repeat: no-repeat;
   background-size: cover;
-  transition: 1s ease-in;
-
+  transition: 1s cubic-bezier(0.710, 0.150, 0.000, 0.690);
+  mix-blend-mode: overlay;
 }
 
 .ClipOn {
   clip-path: circle(0% at 50% 50%);
+  transform: scale(0.25, 0.25);
+
 }
 
 .ClipOff {
   clip-path: circle(100% at 50% 50%);
+  transform: scale(2, 2);
 }

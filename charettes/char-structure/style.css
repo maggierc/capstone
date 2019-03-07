@@ -9,25 +9,19 @@ body {
 
 
 
-#reference {
-  position: absolute;
-  width: 100vw;
+#bgmovement {
+  position: fixed;
   height: 100vh;
-  background: url('../imgs/deck_final.png');
-  background-size: cover;
+  width: 100vw;
   top: 0;
   left: 0;
-}
-
-#reference2 {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  background: url('../imgs/deck_final2.png');
+  background: url("../imgs/background.gif");
+  background-position: center;
   background-size: cover;
-  top: 0;
-  left: 0;
-  opacity: 0.4;
+  opacity: 0.3;
+  filter: grayscale(100%);
+  mix-blend-mode: overlay;
+  /* filter: blur(15px); */
 }
 
 .container {
@@ -41,12 +35,13 @@ body {
 }
 
 .row {
-  /* background: #fbd157; */
+  width: 90%;
+  margin: auto;
 }
 
 #gallery {
-  height: 60%;
-  padding-top: 10%;
+  height: 50%;
+  padding-top: 5%;
 }
 
 
@@ -59,12 +54,21 @@ body {
 #firstHTML h1 {
   padding-top: 5%;
   font-weight: 400;
+  font-size: 4em;
+
+}
+
+#firstHTML h5 {
+  padding-top: 2%;
+  font-size: 1em;
+  font-weight: 300;
 }
 
 #selectPatient {
   padding-top: 7%;
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 300;
+  font-size: 1em;
 }
 
 
@@ -163,3 +167,9 @@ body {
   transform: translate(-50%, -50%);
   box-shadow: 0px 0px 50px #fff;
 }
+
+
+/*
+
+
+ */
