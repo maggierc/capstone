@@ -1,8 +1,7 @@
-
 body {
   background: #eee;
   font-family: "Noto Serif SC", serif;
-  transition: 0.75s ease;
+  transition: 0.5s ease;
   cursor: default;
   /* display: none; */
 }
@@ -39,7 +38,7 @@ body {
 
 #gallery {
   height: 60%;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 
@@ -48,9 +47,9 @@ body {
 }
 
 h1 {
-  padding-top: 5%;
+  padding-top: 20%;
   font-weight: 400;
-  font-size: 4em;
+  font-size: 8em;
 
 }
 
@@ -64,7 +63,7 @@ h5 {
   padding-top: 7%;
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 300;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 
