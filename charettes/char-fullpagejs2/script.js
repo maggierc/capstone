@@ -12,6 +12,7 @@ $(document).ready(function() {
     //   navigation: true,
     // });
 
+
     $("#readplayButton").toggle(function()
         {
           $('#masked-page').removeClass("ClipOn").addClass("ClipOff");
@@ -53,7 +54,7 @@ $(document).ready(function() {
 
       });
 
-    $('span, .playFX').mouseover(function(){
+    $('.playText span, .playFX').mouseover(function(){
 
       var random = (Math.random() * 2.5) + 1;
 
@@ -79,4 +80,24 @@ $(document).ready(function() {
       // $(this).css("color", "red");
 
     });
+
+
+
+    function loop() {
+      var x = document.getElementById("playTextBackground").textContent;
+      setInterval(function(){
+          $(".playText h3").css('color', 'yellow');
+          $(".playText h3").text('TAN');
+          setInterval(function(){
+              $(".playText h3").css('color', 'white');
+              $(".playText h3").text(x);
+            },1000);
+        },1000);
+        loop();
+
+    };
+
+    loop();
+
+
 });

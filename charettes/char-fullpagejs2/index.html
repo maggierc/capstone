@@ -17,135 +17,65 @@
 
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="stylesheet" href="css/gallery.css" type="text/css">
 
     <!-- Java Link -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
-    <title>Keystone Draft</title>
+    <title>Gallery</title>
   </head>
   <body>
+
     <div id="bgmovement"></div>
 
-    <div class="button" id="readplayButton"></div>
-
-    <nav class="navbar fixed-top">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-             <li class="nav-item active">
-               <a class="nav-link" id="homeLink" href="../char-structure/index.html">Grey Matter</a>
-               <div class="underline"></div>
-             </li>
-           </ul>
-        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-             <li class="nav-item active">
-               <a class="nav-link" href="#">Next Patient<span class="sr-only">(current)</span></a>
-             </li>
-           </ul>
-      </nav>
-      <div class="ClipOn" id="masked-page"></div>
-
-
-    <div id="fullpage">
+        <div class="" id="fullpage">
           <section id="section1" class="section">
             <div class="container">
-              <div class="col col-lg-12">
-                <div id="title">
-                  <h1>The</h1>
-                  <h1>Story of</h1>
-                  <h1>Clive Wearing</h1>
+              <div class="row">
+                <div class="col">
+                  <h1>Grey Matter</h1>
+                  <h5>Revealing the experiences of psychology's most extreme cases.</h5>
                 </div>
-                <p class="readText" id="scrollDown">Scroll Down</p>
-                <p class="playText" id="scrollDown">Scroll Down</p>
               </div>
             </div>
           </section>
-            <section id="section2" class="section">
+          <section id="section2" class="section">
             <div class="container">
-              <div class="col col-md-12">
-                <p class="readText"><strong>1985</strong></p>
-                <p class="indent1 readText">England</p>
-                <p class="indent1 readText">Living with his wife</p>
-                <p class="indent1 readText">Deborah</p>
-                <p class="indent1 readText">Musicologist</p>
-                <p class="indent1 readText">for the BBC</p>
-                <p class="indent1 readText">Incredibly outgoing</p>
-                <p class="indent1 readText">Friendly</p>
-
-                <p class="playText"><strong>1985</strong></p>
-                <p class="indent1 playText">England</p>
-                <p class="indent1 playText">Living with his wife</p>
-                <p class="indent1 playText">Deborah</p>
-                <p class="indent1 playText">Musicologist</p>
-                <p class="indent1 playText">for the BBC</p>
-                <p class="indent1 playText">Incredibly outgoing</p>
-                <p class="indent1 playText">Friendly</p>
-              </div>
-            </div>
-          </section>
-          <section id="section3" class="section">
-            <div class="container">
-              <div class="col col-md-12">
-                <p class="readText"><strong>1985</strong></p>
-                <p class="readText indent1">brain infection begins</p>
-                <p class="readText indent1">splitting headache</p>
-                <p class="readText indent1">no sleep</p>
-                <p class="readText" id="afterMonth"><strong>after a month</strong></p>
-                <p class="readText indent1">coma</p>
-                <p class="readText indent1">infection</p>
-                <p class="readText indent1">damages huge parts of brain</p>
-                <p class="readText indent2">destroys area for memory</p>
-                <p class="readText indent3">known as</p>
-                <p class="readText indent4">amnesia</p>
-
-                <p class="playText"><strong>1985</strong></p>
-                <p class="playText indent1">brain infection begins</p>
-                <p class="playText indent1">splitting headache</p>
-                <p class="playText indent1">no sleep</p>
-                <p class="playText" id="afterMonth"><strong>after a month</strong></p>
-                <p class="playText indent1">coma</p>
-                <p class="playText indent1">infection</p>
-                <p class="playText indent1">damages huge parts of brain</p>
-                <p class="playText indent2">destroys area for memory</p>
-                <p class="playText indent3">known as</p>
-                <p class="playText indent4">amnesia</p>
-              </div>
-            </div>
-          </section>
-          <section id="section4" class="section">
-            <div class="container">
-              <div class="col col-md-12">
-                <p><strong>He called every object chicken.</strong></p>
-                <p class="indent2">He crossed  out his writing</p>
-                <p class="indent3">because he didn't recognize it</p>
-                <p class="indent4">as his own.</p>
-
-                <p><strong>His short term memory</strong></p>
-                <p class="indent1"><strong>decreased</strong></p>
-                <p class="indent1">to mere seconds</p>
-
-                <p class="indent6">He said</p>
-                <p class="indent7"><strong>he had never been conscious</strong></p>
-                <p class="indent8">until</p>
-                <p class="indent7">just</p>
-                <p class="indent6">this</p>
-                <p class="indent5">moment</p>
-              </div>
-            </div>
-          </section>
-          <section id="section5" class="section">
-            <div class="container">
-              <div class="col col-md-5">
-                <p>Clive is the most severe case of amnesia recorded in neuroscience. Throughout his life, doctors have continued to scan his brain and test him to gain any information possible about his condition.</p>
-                <p>The studies of him vastly improved the field's knowledge of how memory operates in the brain.</p>
-                <a href="#">
-                  <div class="button" id="learnMore">
-                    <p>Learn More</p>
+              <div class="row" id="gallery">
+                  <div class="col galleryImgs" id="cliveGallery">
+                    <a id="cliveSelect" href="notyet.html">
+                      <div class="patient overlay" id="cliveOverlay">  </div>
+                      <div class="patient" id="cliveImg">  </div>
+                    </a>
                   </div>
-                </a>
+                  <div class="col galleryImgs" id="phineasGallery">
+                      <a id="phineasSelect" href="notyet.html">
+                        <div class="patient overlay" id="phineasOverlay">  </div>
+                        <div class="patient" id="phineasImg">  </div>
+                      </a>
+                  </div>
+                  <div class="col galleryImgs" id="louisGallery">
+                    <a id="louisSelect" href="../char-fullpagejs2/louisleborgne.html">
+                      <div class="patient overlay" id="louisOverlay">  </div>
+                      <div class="patient" id="louisImg">  </div>
+                    </a>
+                  </div>
+                  <div class="col galleryImgs" id="kimGallery">
+                    <a id="kimSelect" href="notyet.html">
+                      <div class="patient overlay" id="kimOverlay">  </div>
+                      <div class="patient" id="kimImg">  </div>
+                    </a>
+                  </div>
+              </div>
+              <div class="row" id="selectPatient">
+                <div class="col">
+                  <p><span id="textReplace">Select a patient to see their story</span></p>
+                </div>
               </div>
             </div>
           </section>
         </div>
+
 
 
 
@@ -163,11 +93,8 @@
     <script type="text/javascript" src="src/fullpage.js"></script>
     <script type="text/javascript">
     	var myFullpage = new fullpage('#fullpage', {
-        anchors: ['intro', 'who', 'how', 'what', 'why'],
+        anchors: ['main', 'images'],
     		// sectionsColor: ['#2c3e50', '#2c3e50', '#2c3e50', '#2c3e50', '#2c3e50'],
-        navigation: true,
-        navigationPosition: 'right',
-        navigationTooltips: ['intro', 'who', 'how', 'what', 'why']
     	});
     </script>
 
@@ -175,6 +102,6 @@
 
 
     <!-- My JavaScript -->
-    <script src="script.js">  </script>
+    <script src="gallery.js">  </script>
   </body>
 </html>
