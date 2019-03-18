@@ -24,7 +24,7 @@ section {
   width: 100vw;
   top: 0;
   left: 0;
-  background: url("../imgs/background.gif");
+  /* background: url("../imgs/background.gif"); */
   background-position: center;
   background-size: cover;
   opacity: 0.3;
@@ -249,7 +249,7 @@ a:hover {
 
 /* Transition Button */
 
-#readplayButton {
+/* #readplayButton {
   height: 60px;
   width: 60px;
   background: #fff;
@@ -283,7 +283,25 @@ a:hover {
   70%  {background: #2c3e50;}
   75%  {background: #465b70;}
   100%  {background: #2c3e50;}
-}
+} */
+
+
+#readplayButton {
+  height: 60px;
+  width: 60px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: 0.2s ease;
+  animation: blinking 5s ease infinite;
+  z-index: 10000;
+
+
 
 
 
@@ -308,4 +326,19 @@ a:hover {
 .ClipOff {
   clip-path: circle(100% at 50% 50%);
   transform: scale(2, 2);
+}
+
+.playTextPreview:after {
+  content:"";
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { content:"e"; }
+  40% { content:"e"; }
+  45% { content: "TAN"; }
+  50% { content: "e"; }
+  70% { content: "TAN"; }
+  80% { content: "e"; }
+  90% { content: "TAN"; }
 }

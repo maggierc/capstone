@@ -12,9 +12,7 @@ $(document).ready(function() {
     //   navigation: true,
     // });
 
-
-    $("#readplayButton").toggle(function()
-        {
+    $("#readplayButton").toggle(function() {
           $('#masked-page').removeClass("ClipOn").addClass("ClipOff");
 
           setTimeout(function(){
@@ -36,7 +34,7 @@ $(document).ready(function() {
             playFilter = false;
     });
 
-    $('p.playText, h1.playText').each(function() {
+    $('p.playText').each(function() {
 
         var words = $(this).text().split(' ');
 
@@ -62,7 +60,7 @@ $(document).ready(function() {
         $(this).text("tan").css({
             'color': '#f6ff00',
             'font-size': random + 'em',
-            'display': 'inline-block',
+            // 'display': 'inline-block',
             'float' : 'left',
             'text-transform' : 'uppercase',
             'line-height' : '0.7em'
@@ -81,23 +79,30 @@ $(document).ready(function() {
 
     });
 
+    // 
+    // function myFunction() {
+    //   setInterval(function(){
+    //     $(".playTextPreview").css('color','yellow');
+    //   }, 1000);
+    // }
+    //
+    // myFunction();
 
-
-    function loop() {
-      var x = document.getElementById("playTextBackground").textContent;
-      setInterval(function(){
-          $(".playText h3").css('color', 'yellow');
-          $(".playText h3").text('TAN');
-          setInterval(function(){
-              $(".playText h3").css('color', 'white');
-              $(".playText h3").text(x);
-            },1000);
-        },1000);
-        loop();
-
-    };
-
-    loop();
+    //
+    // function loop() {
+    //   setInterval(function(){
+    //       $("#playTextPreview").css('color', 'yellow');
+    //       $("#playTextPreview").text('TAN');
+    //       setInterval(function(){
+    //           $("#playTextPreview").css('color', 'white');
+    //           $("#playTextPreview").text("e");
+    //         },1500);
+    //     },2000);
+    //     loop();
+    //
+    // };
+    //
+    // loop();
 
 
 });

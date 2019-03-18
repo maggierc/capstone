@@ -61,6 +61,7 @@ $( document ).ready(function() {
       $('#textReplace').css("color", "#222").text( "Select a patient to see their story" );
     });
 
+  
 
 
 });

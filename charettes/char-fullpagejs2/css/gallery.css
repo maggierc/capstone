@@ -14,7 +14,7 @@ body {
   width: 100vw;
   top: 0;
   left: 0;
-  background: url("../../imgs/background.gif");
+  /* background: url("../../imgs/background.gif"); */
   background-position: center;
   background-size: cover;
   opacity: 0.3;
@@ -131,7 +131,18 @@ h5 {
   box-shadow: 0px 0px 50px #fff;
 }
 
+.playTextPreview:after {
+  content:"";
+  animation: spin 5s linear infinite;
+}
 
+@keyframes spin {
+  0% { content:"e"; }
+  70% { content:"e"; }
+  75% { content: "TAN"; }
+  80% { content: "e"; }
+  90% { content: "TAN"; }
+}
 /*
 
 
