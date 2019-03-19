@@ -2,9 +2,9 @@ $( document ).ready(function() {
 
   $( "#cliveGallery .overlay" )
     .mouseenter(function() {
-      $(".overlay").css("background", "#2c3e50");
+      $(".overlay").css("background", "#0e2844");
       $("#cliveOverlay").css("background", "none");
-      $('body').css("background", "#2c3e50");
+      $('body').css("background", "#0e2844");
       $('#cliveImg').css("box-shadow", "0px 0px 20px rgba(255, 255, 255, 0.2)");
        $('#textReplace').css("color", "#fff").text( "Clive Wearing" );
     })
@@ -17,9 +17,9 @@ $( document ).ready(function() {
 
   $( "#phineasGallery .overlay" )
     .mouseenter(function() {
-      $(".overlay").css("background", "#b83b5e");
+      $(".overlay").css("background", "#4f0b20");
       $("#phineasOverlay").css("background", "none");
-      $('body').css("background", "#b83b5e");
+      $('body').css("background", "#4f0b20");
       $('#phineasImg').css("box-shadow", "0px 0px 20px rgba(255, 255, 255, 0.2)");
       $('#textReplace').css("color", "#fff").text( "Phineas Gage" );
     })
@@ -32,9 +32,9 @@ $( document ).ready(function() {
 
   $( "#louisGallery .overlay" )
     .mouseenter(function() {
-      $(".overlay").css("background", "#6a2c70");
+      $(".overlay").css("background", "#36094f");
       $("#louisOverlay").css("background", "none");
-      $('body').css("background", "#6a2c70");
+      $('body').css("background", "#36094f");
       $('#louisImg').css("box-shadow", "0px 0px 20px rgba(255, 255, 255, 0.2)");
       $('#textReplace').css("color", "#fff").text( "Louis Victor Leborgne" );
     })
@@ -47,9 +47,9 @@ $( document ).ready(function() {
 
   $( "#kimGallery .overlay" )
     .mouseenter(function() {
-      $(".overlay").css("background", "#ffb228");
+      $(".overlay").css("background", "#703b05");
       $("#kimOverlay").css("background", "none");
-      $('body').css("background", "#ffb228");
+      $('body').css("background", "#703b05");
       $('#kimImg').css("box-shadow", "0px 0px 20px rgba(255, 255, 255, 0.2)");
       $('#textReplace').css("color", "#fff").text( "Kim Peek" );
 
@@ -61,7 +61,7 @@ $( document ).ready(function() {
       $('#textReplace').css("color", "#222").text( "Select a patient to see their story" );
     });
 
-  
+
 
 
 });

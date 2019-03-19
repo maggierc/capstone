@@ -3,7 +3,7 @@ body {
   color: #fff;
   cursor: default;
 
-  background: #36094f;
+  background: #0e2844;
 }
 
 /* @keyframes blinking {
@@ -16,6 +16,10 @@ body {
 } */
 
 #masked-page {
-  background-image: url("../../imgs/Asset 2.png");
+  background-image: url("../../imgs/Asset 1.png");
 
+}
+
+#readplayButton0 {
+  background: #0e2844;
 }

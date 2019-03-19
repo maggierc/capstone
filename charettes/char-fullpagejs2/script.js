@@ -12,7 +12,7 @@ $(document).ready(function() {
     //   navigation: true,
     // });
 
-    $("#readplayButton").toggle(function() {
+    $("#readplayButton0").toggle(function() {
           $('#masked-page').removeClass("ClipOn").addClass("ClipOff");
 
           setTimeout(function(){
@@ -66,20 +66,13 @@ $(document).ready(function() {
             'line-height' : '0.7em'
         })
 
-        // ;
-        // $(this).css("color", "yellow");
-        // $(this).css("font-size", "random");
-        // $(this).css("display", "absolute");
-
       }
       else {
       }
-      // $(this).text("tan");
-      // $(this).css("color", "red");
 
     });
 
-    // 
+    //
     // function myFunction() {
     //   setInterval(function(){
     //     $(".playTextPreview").css('color','yellow');
