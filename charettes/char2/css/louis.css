@@ -3,7 +3,7 @@ body {
   color: #fff;
   cursor: default;
 
-  background: #0e2844;
+  background: #36094f;
 }
 
 /* @keyframes blinking {
@@ -16,19 +16,6 @@ body {
 } */
 
 #masked-page {
-  background-image: url("../../imgs/Asset 1.png");
+  background-image: url("../../imgs/Asset 2.png");
 
-}
-
-#readplayButton0 {
-  background: none;
-}
-
-#myVideo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  min-height: 100%;
-  opacity: 0.3;
 }
