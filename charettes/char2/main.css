@@ -113,7 +113,6 @@ p {
 }
 
 .playText {
-  display: none;
   animation: floating 20s ease infinite;
 }
 
@@ -122,6 +121,11 @@ p {
 }
 
 .readText {
+}
+
+span {
+  transition: 0.5s;
+
 }
 
 /* @keyframes floating {
