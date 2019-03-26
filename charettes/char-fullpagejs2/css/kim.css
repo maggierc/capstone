@@ -3,7 +3,7 @@ body {
   color: #fff;
   cursor: default;
 
-  background: #222;
+  background: #703b05;
 }
 
 /* @keyframes blinking {
@@ -16,25 +16,19 @@ body {
 } */
 
 #masked-page {
-  background-image: url("../../imgs/Asset 2.png");
+  background-image: url("../../imgs/Asset 4.png");
 
 }
 
-#section3 span {
-  display: inline-block;
-  transition: 0s;
+#readplayButton0 {
+  background: none;
 }
 
-
-#section4 span {
-  display: inline-block;
-  font-size: 1em;
-  transition: 0s;
-}
-
-#section4 span:hover {
-  color: red;
-  font-size: 5em;
-
-  transition: 4s ease-out;
+#myVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.3;
 }
