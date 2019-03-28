@@ -17,9 +17,9 @@ $( document ).ready(function() {
 
   $( "#phineasGallery .overlay" )
     .mouseenter(function() {
-      $(".overlay").css("background", "#4f0b20");
+      $(".overlay").css("background", "#6d0021");
       $("#phineasOverlay").css("background", "none");
-      $('body').css("background", "#4f0b20");
+      $('body').css("background", "#6d0021");
       $('#phineasImg').css("box-shadow", "0px 0px 20px rgba(255, 255, 255, 0.2)");
       $('#textReplace').css("color", "#fff").text( "Phineas Gage" );
     })
@@ -47,9 +47,9 @@ $( document ).ready(function() {
 
   $( "#kimGallery .overlay" )
     .mouseenter(function() {
-      $(".overlay").css("background", "#703b05");
+      $(".overlay").css("background", "#6d2a00");
       $("#kimOverlay").css("background", "none");
-      $('body').css("background", "#703b05");
+      $('body').css("background", "#6d2a00");
       $('#kimImg').css("box-shadow", "0px 0px 20px rgba(255, 255, 255, 0.2)");
       $('#textReplace').css("color", "#fff").text( "Kim Peek" );
 

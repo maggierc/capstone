@@ -82,20 +82,20 @@ $(document).ready(function() {
     // myFunction();
 
 
-    function loop() {
-      setInterval(function(){
-          $("#playTextPreview").css('color', 'yellow');
-          $("#playTextPreview").text('TAN');
-          setInterval(function(){
-              $("#playTextPreview").css('color', 'white');
-              $("#playTextPreview").text("e");
-            },1500);
-        },2000);
-        loop();
-
-    };
-
-    loop();
+    // function loop() {
+    //   setInterval(function(){
+    //       $("#playTextPreview").css('color', 'yellow');
+    //       $("#playTextPreview").text('TAN');
+    //       setInterval(function(){
+    //           $("#playTextPreview").css('color', 'white');
+    //           $("#playTextPreview").text("e");
+    //         },1500);
+    //     },2000);
+    //     loop();
+    //
+    // };
+    //
+    // loop();
 
 
 });

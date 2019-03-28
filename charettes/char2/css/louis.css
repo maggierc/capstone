@@ -26,15 +26,65 @@ body {
 }
 
 
-#section4 span {
+#section3 p {
   display: inline-block;
-  font-size: 1em;
-  transition: 0s;
+  /* font-size: 1em; */
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  transition: 5s ease-in;
 }
 
-#section4 span:hover {
+#section3 p:hover {
   color: red;
-  font-size: 5em;
+  /* font-size: 5em; */
+  transform: matrix(1.5, -0.1, 0, 1.5, 0, 0);
+  transition: 30s ease-out;
+}
 
-  transition: 4s ease-out;
+@keyframes slide {
+  from {
+    background-position-x: 300%;
+  }
+  to {
+    background-position-x: -300%;
+  }
+}
+
+#ST1 {
+  background-image: url("../../imgs/test-text.png");
+  animation: 5s linear infinite slide;
+  animation-play-state: running;
+
+}
+
+#ST2 {
+  background-image: url("../../imgs/test-text_3.png");
+  animation: 20s linear infinite slide;
+  animation-play-state: running;
+
+}
+
+#ST3 {
+  background-image: url("../../imgs/test-text_4.png");
+  animation: 15s linear infinite slide;
+  animation-play-state: running;
+
+}
+
+.scrolling-test {
+  width: 100%;
+  height: 20px;
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+#ST1:hover {
+  animation-play-state: paused;
+}
+
+#ST2:hover {
+  animation-play-state: paused;
+}
+
+#ST3:hover {
+  animation-play-state: paused;
 }

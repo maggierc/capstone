@@ -47,7 +47,15 @@ $(document).ready(function() {
     });
 
     $('#section2 .playText span').mouseenter(function() {
-      var text = this.innerText;
+      // var text = this.innerText;
+      var myArray = [
+        "Where am I?",
+        "Who are you?",
+        "What's going on?",
+        "?",
+        "?"
+      ];
+      var text = myArray[Math.floor(Math.random()*myArray.length)];
       $(this).css({'color':'cyan', 'opacity':'1'});
       var divW = (window.innerWidth / 10).toFixed();
       var divH = (window.innerHeight / 10).toFixed();
@@ -56,7 +64,7 @@ $(document).ready(function() {
       var color = '#' + grayscale.toString(16);
       // var color = '#' + Math.round(0xffffff * Math.random()).toString(16);
       $newdiv = $('<h3/>').css({
-          'color': color,
+          'color': 'white',
       });
 
       var posx = (Math.random() * ($(document).innerWidth() - divW)).toFixed();
@@ -67,13 +75,23 @@ $(document).ready(function() {
           'left': posx + 'px',
           'top': posy + 'px',
           'display': 'none',
-          'filter': 'blur(0.2px)',
-          'opacity' : '0.1'
-      }).text(text).appendTo('body').fadeIn(500).delay(500).fadeOut(500);
+          'color' : '#fff',
+          'filter': 'blur(4px)',
+          'opacity' : '0.7'
+      }).text(text).appendTo('body').fadeIn(500).delay(1000).fadeOut(500);
     });
 
     $('#section2 .playText span').mouseleave(function() {
-      var text = this.innerText;
+      // var text = this.innerText;
+      var myArray = [
+        "What?",
+        "Why?",
+        "How?",
+        "?",
+        "Deborah?",
+        "?"
+      ];
+      var text = myArray[Math.floor(Math.random()*myArray.length)];
       $(this).css('opacity', '0');
       var divW = (window.innerWidth / 10).toFixed();
       var divH = (window.innerHeight / 10).toFixed();
@@ -82,7 +100,7 @@ $(document).ready(function() {
       var color = '#' + grayscale.toString(16);
       // var color = '#' + Math.round(0xffffff * Math.random()).toString(16);
       $newdiv = $('<h1/>').css({
-          'color': color,
+          'color': 'white',
       });
 
       var posx = (Math.random() * ($(document).innerWidth() - divW)).toFixed();
