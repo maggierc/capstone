@@ -11,6 +11,7 @@ $(document).ready(function() {
     // $('#fullpage').fullpage({
     //   navigation: true,
     // });
+    
 
     $("#readplayButton3").toggle(function() {
           $('#masked-page').removeClass("ClipOn").addClass("ClipOff");

@@ -8,9 +8,23 @@ $(document).ready(function() {
 
   var playFilter = false;
 
-    
+  $("#readplayButton0").mouseenter(function(){
+    $('#readplayButton3').css({
+        'height': '60px',
+        'width': '60px',
+        'background' : 'white'
+    });
+  });
 
-    $("#readplayButton3").toggle(function() {
+  $("#readplayButton0").mouseleave(function(){
+    $('#readplayButton3').css({
+        'height': '20px',
+        'width': '20px',
+        'background' : 'none'
+    });
+  });
+
+    $("#readplayButton0").toggle(function() {
           $('#masked-page').removeClass("ClipOn").addClass("ClipOff");
 
           setTimeout(function(){

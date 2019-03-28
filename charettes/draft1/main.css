@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Noto Serif SC", serif;
+  font-family: "IBM Plex Serif", serif;
   color: #fff;
   cursor: default;
   /* background: #2c3e50; */
@@ -71,37 +71,42 @@ section {
 
 p {
   margin-bottom: 0.1em;
-  font-size: 0.8em;
+  font-size: 1.5em;
+  letter-spacing: 0.02em;
+  font-weight: 200;
 }
 
 .sectionInfo p {
-  font-weight: 400;
-  font-size: 1em;
-  padding-bottom: 4%;
-  width: 40%;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 1.5rem;
+  font-size: 1.7rem;
+  letter-spacing: 0.02em;
+  font-weight: 200;
 }
 
 #section1 .col {
   padding-top: 0;
 }
 
-#title {
-  padding-top: 25%;
-}
 
 #title h1 {
-  font-weight: 600;
-  font-size: 5em;
+  font-weight: 300;
+  /* font-style: italic; */
+  font-size: 7rem;
+  width: 75%;
+  margin: auto;
+  padding-top: 10%;
 }
 
 
 #title p {
-  padding-top: 2%;
-  font-size: 1em;
+  padding-top: 20%;
+  font-size: 1.5rem;
   font-weight: 200;
   width: 75%;
   padding-bottom: 0;
-
+  margin: auto;
 }
 
 #scrollDown {
@@ -110,6 +115,8 @@ p {
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 100;
   letter-spacing: 0.04em;
+  width: 75%;
+  margin: auto;
 }
 
 .playText {
@@ -119,9 +126,6 @@ p {
 
 .playText .paragraphInfo {
   opacity: 0;
-}
-
-.readText {
 }
 
 /* Indentation / Positioning */
@@ -181,10 +185,11 @@ p {
 
 .sectionInfo h3 {
   font-family: "Roboto", sans-serif;
-
+  text-align: center;
   font-weight: 400;
   font-size: 1.3em;
   text-transform: uppercase;
+  padding-bottom: 5%;
 }
 
 .underline {
@@ -225,7 +230,7 @@ a:hover {
 /* Transition Button */
 
 
-/* #readplayButton0 {
+#readplayButton0 {
   height: 60px;
   width: 60px;
   background: #36094f;
@@ -237,9 +242,9 @@ a:hover {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   transition: 0.1s ease;
-  opacity: 0.4;
+  opacity: 0.1;
   z-index:10002;
-} */
+}
 
 #readplayButton1 {
   height: 60px;
@@ -288,10 +293,14 @@ a:hover {
   transition: 0.2s ease;
   animation: opacity 3s ease 0.3s infinite;
 
-  z-index: 10001;
+  z-index: 10000;
 }
 
-#readplayButton3:hover {
+#readplayButton0:hover {
+    cursor: pointer;
+}
+
+/* .buttonHover {
   height: 60px;
   width: 60px;
   -webkit-transform: translate(-50%, -50%);
@@ -300,7 +309,7 @@ a:hover {
   cursor: pointer;
   opacity: 1;
   background: #fff;
-}
+} */
 
 @keyframes opacity {
   0%  {opacity: 1;}
