@@ -88,3 +88,47 @@ body {
 #ST3:hover {
   animation-play-state: paused;
 }
+
+#section4 .container {
+  padding-top: 10%;
+}
+
+.marquee {
+  height: 5%;
+  width: 100%;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee div {
+  display: block;
+  width: 200%;
+  height: 30px;
+
+  position: absolute;
+  overflow: hidden;
+
+  animation: marquee 15s linear infinite;
+}
+
+#marq2 {
+  animation: marquee 5s linear infinite;
+}
+
+#marq3 {
+  animation: marquee 1s linear infinite;
+}
+#marq4 {
+  animation: marquee 3s linear infinite;
+}
+
+.marquee span {
+  float: left;
+  width: 50%;
+}
+
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}

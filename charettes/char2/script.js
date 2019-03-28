@@ -115,7 +115,7 @@ $(document).ready(function() {
       }).text(text).appendTo('body').fadeIn(500).delay(500).fadeOut(500);
     });
 
-    $("#section4 span").addClass("shake-hard shake-freeze");
+    // $("#section4 span").addClass("shake-hard shake-freeze");
     $("#section3 span").addClass("shake");
 
   });

@@ -4,13 +4,13 @@
 // opacity/display none, then opacity/display block
 // have consistent color
 
+// select path + seven spans before, have it select children (create array of spans with ids)
+
 $(document).ready(function() {
 
   var playFilter = false;
 
-    // $('#fullpage').fullpage({
-    //   navigation: true,
-    // });
+
 
     $("#readplayButton3").toggle(function() {
           $('#masked-page').removeClass("ClipOn").addClass("ClipOff");
@@ -52,27 +52,7 @@ $(document).ready(function() {
 
       });
 
-    $('.playText span, .playFX').mouseover(function(){
-
-      var random = (Math.random() * 2.5) + 1;
-
-      if (playFilter==true) {
-        $(this).text("tan").css({
-            'color': '#f6ff00',
-            'font-size': random + 'em',
-            // 'display': 'inline-block',
-            'float' : 'left',
-            'text-transform' : 'uppercase',
-            'line-height' : '0.7em'
-        })
-
-      }
-      else {
-      }
-
-    });
-
-
+      $(".playText span").addClass("shake");
 
 
 });
