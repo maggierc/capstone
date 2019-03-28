@@ -96,7 +96,6 @@ body {
 .marquee {
   height: 5%;
   width: 100%;
-
   overflow: hidden;
   position: relative;
 }
@@ -109,18 +108,23 @@ body {
   position: absolute;
   overflow: hidden;
 
-  animation: marquee 15s linear infinite;
+  animation: marquee 2s linear infinite;
+  animation-play-state: running;
 }
 
-#marq2 {
-  animation: marquee 5s linear infinite;
+#marq2 div {
+  animation: marquee 4s linear -2.5s infinite;
 }
 
-#marq3 {
-  animation: marquee 1s linear infinite;
+#marq3 div {
+  animation: marquee 2s linear -1s infinite;
 }
-#marq4 {
-  animation: marquee 3s linear infinite;
+#marq4 div {
+  animation: marquee 3s linear -2s infinite;
+}
+
+.marquee div:hover,  #marq4 div:hover,  #marq3 div:hover,  #marq2 div:hover{
+  animation-play-state: paused;
 }
 
 .marquee span {
