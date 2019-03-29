@@ -96,7 +96,7 @@ $(document).ready(function() {
             'color' : '#fff',
             'filter': 'blur(4px)',
             'opacity' : '0.7'
-        }).text(text).appendTo('body').fadeIn(500).delay(1000).fadeOut(500);
+        }).text(text).appendTo('body').fadeIn(1500).delay(500).fadeOut(500);
       });
 
       $('.playText span').mouseleave(function() {
@@ -130,7 +130,7 @@ $(document).ready(function() {
             'top': posy + 'px',
             'filter': 'blur(1px)',
             'display': 'none'
-        }).text(text).appendTo('body').fadeIn(500).delay(500).fadeOut(500);
+        }).text(text).appendTo('body').fadeIn(1500).delay(500).fadeOut(500);
       });
 
 

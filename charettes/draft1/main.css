@@ -34,21 +34,16 @@ section {
 
 
 .navbar {
-  padding: 2% 9%;
+  padding: 3% 4%;
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 100;
-  width: 50%;
-  position: fixed;
-  top: 0;
-  right: 0;
+  width: 100%;
   z-index: 500;
   text-align: right;
 }
 
 
 .nav-link {
-  position: relative;
-  left: 50px;
   color: #eee;
   opacity: 0.5;
   transition: 0.5s ease;
@@ -77,7 +72,7 @@ p {
 }
 
 .sectionInfo p {
-  width: 75%;
+  width: 80%;
   margin: auto;
   margin-bottom: 1.5rem;
   font-size: 1.7rem;
@@ -93,18 +88,20 @@ p {
 #title h1 {
   font-weight: 300;
   /* font-style: italic; */
-  font-size: 7rem;
-  width: 75%;
+  font-size: 6rem;
+  width: 80%;
   margin: auto;
   padding-top: 10%;
+  text-align: center;
 }
+
 
 
 #title p {
   padding-top: 20%;
   font-size: 1.5rem;
   font-weight: 200;
-  width: 75%;
+  width: 80%;
   padding-bottom: 0;
   margin: auto;
 }
@@ -115,7 +112,8 @@ p {
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 100;
   letter-spacing: 0.04em;
-  width: 75%;
+  font-size: 1rem;
+  width: 80%;
   margin: auto;
 }
 
@@ -170,10 +168,12 @@ p {
   padding-top: 5%;
 }
 
+#section5{
+  padding-top: 5%;
+}
 #section5 p {
   padding-bottom: 5%;
-  font-weight: 300;
-  font-size: 1.1em;
+  font-style: italic;
 }
 
 /* Section Headers */
@@ -326,7 +326,7 @@ a:hover {
   background-image: url("../imgs/Asset 1.png");
   background-repeat: no-repeat;
   background-size: cover;
-  transition: 1s cubic-bezier(0.710, 0.150, 0.000, 0.690);
+  transition: 0.5s ease-in;
   mix-blend-mode: overlay;
 }
 
@@ -353,3 +353,21 @@ a:hover {
   35% { content: "e"; }
   100% { content: "TAN"; }
 }
+
+
+/* Media Queries */
+
+
+
+@media (min-width: 1200px) {
+
+  #title h1 {
+    font-weight: 300;
+    /* font-style: italic; */
+    font-size: 7rem;
+    width: 80%;
+    margin: auto;
+    padding-top: 10%;
+  }
+
+ }
