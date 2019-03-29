@@ -1,5 +1,4 @@
 body {
-  font-family: "Noto Serif SC", serif;
   color: #fff;
   cursor: default;
 
@@ -18,4 +17,8 @@ body {
 #masked-page {
   background-image: url("../../imgs/Asset 2.png");
 
+}
+
+.playText span {
+  transition: 0.5s;
 }

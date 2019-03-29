@@ -186,10 +186,11 @@ p {
 .sectionInfo h3 {
   font-family: "Roboto", sans-serif;
   text-align: center;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.3em;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
-  padding-bottom: 5%;
+  padding-bottom: 10%;
 }
 
 .underline {
@@ -325,7 +326,7 @@ a:hover {
   width: 100vw;
   background-image: url("../imgs/Asset 1.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   transition: 0.5s ease-in;
   mix-blend-mode: overlay;
 }
