@@ -15,6 +15,8 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:200,300,400,500,600,700,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 
+    <!-- SHAKE CSS -->
+    <link rel="stylesheet" href="css/csshake.css" type="text/css">
 
     <!-- My CSS -->
     <link rel="stylesheet" href="main.css" type="text/css">
@@ -37,27 +39,27 @@
     <div class="button" id="readplayButton2"></div>
     <div class="button" id="readplayButton3"></div>
 
-    <!-- <a href="play.html">    </a> -->
-    <nav class="navbar">
-        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-             <li class="nav-item active">
-               <a class="nav-link" href="index.html#images">Back to Home<span class="sr-only">(current)</span></a>
-             </li>
-             <li class="nav-item active">
-               <a class="nav-link" href="louisleborgne.html">Next Patient<span class="sr-only">(current)</span></a>
-             </li>
-           </ul>
-      </nav>
-      <div class="ClipOn" id="masked-page"></div>
+    <!-- NAVIGATION SECTION-->
+        <nav class="navbar fixed-top">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html#images">Back to Home<span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                 <li class="nav-item active">
+                   <a class="nav-link" href="louisleborgne.html">Next Patient<span class="sr-only">(current)</span></a>
+                 </li>
+               </ul>
+          </nav>
+          <div class="ClipOn" id="masked-page"></div>
 
 
     <div id="fullpage">
           <section id="section1" class="section">
             <div class="container">
-              <div class="col-9">
+              <div class="col">
                 <div  class="readText" id="title">
-                  <h1 class="readText">The</h1>
-                  <h1 class="readText">Story of</h1>
                   <h1 class="readText">Phineas Gage</h1>
                   <p class="readText">He's mad and doesn't know it</p>
                 </div>
@@ -76,10 +78,9 @@
           </section>
             <section id="section2" class="section">
             <div class="container">
-              <div class="col col-md-12">
+              <div class="col">
                 <div class="readText sectionInfo">
                     <h3>Background</h3>
-                    <div class="underline"></div>
                     <p class="readText">Phineas: born in 1843, living in Vermont.</p>
                     <p class="readText">His friends and colleages called him "energetic", "modest", and "well-mannered".</p>
                     <p class="readText">In his 20s, he worked in construction,</p>
@@ -89,7 +90,6 @@
                 <!-- Play Text -->
                 <div class="playText sectionInfo">
                     <h3>Background</h3>
-                    <div class="underline"></div>
                     <p class="playText">Phineas: born in 1843, living in Vermont.</p>
                     <p class="playText">His friends and colleages called him "energetic", "reliable", and "hard-working".</p>
                     <p class="playText">In 1948, he worked in construction,</p>
@@ -100,10 +100,9 @@
           </section>
           <section id="section3" class="section">
             <div class="container">
-              <div class="col col-md-12">
+              <div class="col">
                 <div class="readText sectionInfo">
                     <h3>What Happened</h3>
-                    <div class="underline"></div>
                     <p class="readText">He was working on a railroad in Cavendish, Vermont.</p>
                     <p class="readText">During construction, a explosion caused a 3-foot iron bar to shoot straight through Phineas' head.</p>
                     <p class="readText">Workers rushed him to the hospital, and he miraculously survived. Even more incredibly, he could still walk, talk, and function in a normal way.</p>
@@ -113,7 +112,6 @@
                 <!-- Play Text -->
                 <div class="playText sectionInfo">
                   <h3>What Happened</h3>
-                  <div class="underline"></div>
                   <p class="playText">He was working on a railroad in Cavendish, Vermont.</p>
                   <p class="playText">During construction, a explosion caused a 3-foot iron bar to shoot straight through Phineas' head.</p>
                   <p class="playText">Workers rushed him to the hospital, and he miraculously survived. Even more incredibly, he could still walk, talk, and function in a normal way.</p>
@@ -124,10 +122,9 @@
           </section>
           <section id="section4" class="section">
             <div class="container">
-              <div class="col col-md-12">
+              <div class="col">
                 <div class="readText sectionInfo">
                     <h3>Symptoms</h3>
-                    <div class="underline"></div>
                     <p class="readText">The damage to Phineas' brain changed only one thing: his personality.</p>
                     <p class="readText">He went from "well-mannered" and "reliable" to </p>
                 </div>
@@ -136,7 +133,6 @@
                 <!-- Play Text -->
                 <div class="playText sectionInfo">
                     <h3>Symptoms</h3>
-                    <div class="underline"></div>
                     <p class="playText">When Louis was admitted to the hospital, he had a variety of strange symptoms. He could understand what people said to him, and would try to respond,</p>
                     <p class="playText"><strong>But the only word he could ever say was &#34;tan&#34;.</strong></p>
                     <p class="playText">Louis was still very intelligent, and aware of what was happening. He would wave his arms, gesture, jump up and down,</p>
@@ -148,9 +144,11 @@
           </section>
           <section id="section5" class="section">
             <div class="container">
-              <div class="col col-md-5">
-                <p>When Phineas suffered his damage</p>
-                <p>The studies surrounding him vastly improved our knowledge of how memory operates in the brain. Documentaries about his life have shown light onto the tragedies that these conditions can cause.</p>
+              <div class="col">
+                <div class="readText sectionInfo">
+                  <p class="readText">When Phineas suffered his damage</p>
+                  <p class="readText">The studies surrounding him vastly improved our knowledge of how memory operates in the brain. Documentaries about his life have shown light onto the tragedies that these conditions can cause.</p>
+                </div>
 
               </div>
             </div>
@@ -185,6 +183,7 @@
 
 
     <!-- My JavaScript -->
-    <script src="script.js">  </script>
+    <script src="script.js"></script>
+    <script src="js/phineas.js"></script>
   </body>
 </html>
