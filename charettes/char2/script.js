@@ -38,6 +38,7 @@ $(document).ready(function() {
             'float' : 'left',
             'text-transform' : 'uppercase',
             'line-height' : '0.7em',
+            'animation' : 'none',
         })
 
       }
