@@ -24,3 +24,13 @@ body {
 .playText span {
   transition: 1s ease-out;
 }
+
+.firstParagraph span:nth-child(5) {
+  animation: clivePassive 1s ease infinite;
+}
+
+@keyframes clivePassive {
+  0%  {filter: blur(0px);}
+  50%  {filter: blur(3px);}
+  100%  {filter: blur(0px);}
+}

@@ -335,7 +335,7 @@ a:hover {
   transform: scale(2, 2);
 }
 
-#section2 span:first-of-type {
+#section2 p:first-child span:first-child {
   animation: clivePassive 1.5s ease infinite;
 }
 
