@@ -103,7 +103,7 @@ body {
 .marquee div {
   display: block;
   width: 200%;
-  height: 30px;
+  height: 10vh;
 
   position: absolute;
   overflow: hidden;
