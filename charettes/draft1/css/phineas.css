@@ -14,7 +14,7 @@ body {
   100%  {background: #6a2c70;}
 } */
 
-#masked-page {
+#masked-page-img {
   background-image: url("../../imgs/Asset 3.png");
 
 }
@@ -34,4 +34,18 @@ body {
 
 .playText span {
   display: inline-block;
+}
+
+.playText p {
+  display: inline-block;
+  /* font-size: 1em; */
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  transition: 3s ease-in;
+}
+
+.playText p:hover {
+  color: black;
+  /* font-size: 5em; */
+  transform: matrix(1.5, -0.1, 0, 1.5, 0, 0);
+  transition: 5s ease-out;
 }

@@ -30,7 +30,7 @@ $(document).ready(function() {
           setTimeout(function(){
             $('.readText').css("display", "none");
             $('.playText').css("display", "inherit");
-            }, 1000);
+          }, 500);
 
             playFilter = true;
 

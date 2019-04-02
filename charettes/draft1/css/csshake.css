@@ -679,7 +679,7 @@
 .shake-vertical:hover,
 .shake-trigger:hover .shake-vertical, .shake-vertical.shake-freeze, .shake-vertical.shake-constant {
   animation-name: shake-vertical;
-  animation-duration: 100ms;
+  animation-duration: 2s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite; }
 

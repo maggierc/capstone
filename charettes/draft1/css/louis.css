@@ -22,3 +22,74 @@ body {
 .playText span {
   transition: 0.5s;
 }
+
+/* #section1 .passiveTan {
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: #ffff00;
+  display: none;
+  animation: tanPassive 1s linear infinite;
+  padding: 0;
+  font-size: 1.5rem;
+  margin: none;
+}
+
+@keyframes tanPassive {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+
+
+.playText span:last-child{
+  animation: tanPassive 1s linear infinite;
+
+}
+
+@keyframes tanPassive {
+  0%  {
+    font-weight: 200;
+    font-family: "Noto Serif SC", serif;
+    text-transform: none;
+    color: #fff;
+    
+  }
+  20%  {
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    color: #ffff00;
+  }
+  40%  {
+    font-weight: 200;
+    font-family: "Noto Serif SC", serif;
+    text-transform: none;
+    color: #fff;
+  }
+  60%  {
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    color: #ffff00;
+  }
+  80%  {
+    font-weight: 200;
+    font-family: "Noto Serif SC", serif;
+    text-transform: none;
+    color: #fff;
+  }
+  100%  {
+    font-weight: 200;
+    font-family: "Noto Serif SC", serif;
+    text-transform: none;
+    color: #fff;
+  }
+
+}

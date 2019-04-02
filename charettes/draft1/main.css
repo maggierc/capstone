@@ -20,14 +20,14 @@ section {
 
 #bgmovement {
   position: fixed;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   top: 0;
   left: 0;
   /* background: url("../imgs/background.gif"); */
   background-position: center;
   background-size: cover;
-  opacity: 0.3;
+  opacity: 0.15;
   filter: blur(15px);
   transition: 1s ease-in;
 }
@@ -119,7 +119,6 @@ p {
 
 .playText {
   display: none;
-  animation: floating 20s ease infinite;
 }
 
 .playText .paragraphInfo {
@@ -320,26 +319,36 @@ a:hover {
 }
 
 /* masked page */
-#masked-page {
+#masked-page-img {
   position: fixed;
   height: 100vh;
   width: 100vw;
   background-image: url("../imgs/Asset 1.png");
   background-repeat: no-repeat;
-  background-size: contain;
-  transition: 0.5s ease-in;
-  mix-blend-mode: overlay;
+  background-size: cover;
+  background-position: center center;
+  /* transition: 0.5s ease-in; */
+
 }
 
 .ClipOn {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
   clip-path: circle(0% at 50% 50%);
-  transform: scale(0.25, 0.25);
-
+  /* transform: scale(0.25, 0.25); */
+  transition: 1s ease;
+  mix-blend-mode: multiply;
 }
 
 .ClipOff {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
   clip-path: circle(100% at 50% 50%);
-  transform: scale(2, 2);
+  /* transform: scale(2, 2); */
+  transition: 1s ease;
+  mix-blend-mode: multiply;
 }
 
 .playTextPreview:after {

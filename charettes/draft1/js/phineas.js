@@ -7,29 +7,13 @@
 // select path + seven spans before, have it select children (create array of spans with ids)
 
 $(document).ready(function() {
-
-  // $('p.playText').each(function() {
-  //
-  //     var words = $(this).text().split(' ');
-  //
-  //     $(this).empty().html(function() {
-  //
-  //       for (i = 0; i < words.length; i++) {
-  //         if (i == 0) {
-  //           $(this).append('<span>' + words[i] + '</span>');
-  //         } else {
-  //           $(this).append(' <span>' + words[i] + '</span>');
-  //         }
-  //       }
-  //
-  //     });
-  //
-  //   });
+// Math.random() * (max - min) + min
 
   $(".playText span").addClass("shake");
   $("#section3 .effect").addClass("shake-slow");
   $("#section4 .effect").addClass("shake-hard");
   $("#section5 .effect").addClass("shake-hard");
 
+  $("#section3 .effectDelay").css('animation-delay', '-500ms');
 
 });

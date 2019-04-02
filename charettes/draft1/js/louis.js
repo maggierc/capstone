@@ -30,6 +30,7 @@ $(document).ready(function() {
           setTimeout(function(){
             $('.readText').css("display", "none");
             $('.playText').css("display", "inherit");
+            $('.passiveTan').css("display", "inline");
             }, 1000);
 
             playFilter = true;
@@ -39,6 +40,7 @@ $(document).ready(function() {
 
             setTimeout(function(){
               $('.playText').css("display", "none");
+              $('.passiveTan').css("display", "none");
               $('.readText').css("display", "inherit");
             }, 500);
 
@@ -76,7 +78,9 @@ $(document).ready(function() {
             'font-weight' : '500',
             'float' : 'left',
             'text-transform' : 'uppercase',
-            'line-height' : '0.7em'
+            'line-height' : '0.7em',
+            'animation' : 'none',
+            'letter-spacing' : '-0.05em'
         })
 
       }
