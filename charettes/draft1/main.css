@@ -359,7 +359,57 @@ a:hover {
 /* Media Queries */
 
 
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  #title h1 {
+    padding-top: 15%;
+    padding-bottom: 5%;
+    font-size: 4em;
+  }
+  #title p, .sectionInfo p {
+    font-size: 1.2em;
+  }
+  .col {
+    padding-top: 15%;
+  }
+ }
+
+@media (min-width: 768px) {
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) and (min-width: 768px) {
+  #title h1 {
+    padding-bottom: 5%;
+    font-size: 6em;
+  }
+
+  #title p, .sectionInfo p {
+    font-size: 1.2em;
+  }
+
+  .col {
+    padding-top: 15%;
+  }
+ }
+
+
+@media (min-width: 992px) {
+  #title h1 {
+    padding-bottom: 5%;
+  }
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
   #title h1 {
@@ -369,6 +419,7 @@ a:hover {
     width: 80%;
     margin: auto;
     padding-top: 10%;
+    padding-bottom: 0;
   }
 
  }
