@@ -29,7 +29,7 @@ $(document).ready(function() {
 
           $('.readText').fadeOut(250);
           setTimeout(function(){
-            $('.playText').fadeIn(400);
+            $('.playText').fadeIn(500);
           }, 500);
 
             playFilter = true;
@@ -39,7 +39,7 @@ $(document).ready(function() {
 
             $('.playText').fadeOut(250);
             setTimeout(function(){
-              $('.readText').fadeIn(400);
+              $('.readText').fadeIn(500);
             }, 500);
 
 

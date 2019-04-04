@@ -37,7 +37,7 @@ body {
 }
 
 .playText p {
-  display: inline-block;
+  display: block;
   /* font-size: 1em; */
   transform: matrix(1, 0, 0, 1, 0, 0);
   transition: 3s ease-in;
