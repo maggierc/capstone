@@ -46,9 +46,13 @@ $(document).ready(function() {
             playFilter = false;
     });
 
+    $("#openSources").click(function() {
+          $(".sources").fadeIn(500);
+    });
 
-
-
+    $("#closeSources").click(function() {
+          $(".sources").fadeOut(500);
+    });
 
 
 });
