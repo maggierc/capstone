@@ -27,7 +27,7 @@ $(document).ready(function() {
     $("#readplayButton0").toggle(function() {
           $('#masked-page').removeClass("ClipOn").addClass("ClipOff");
 
-          $('.readText').fadeOut(250);
+          $('.readText').fadeOut(300);
           setTimeout(function(){
             $('.playText').fadeIn(400);
           }, 500);
@@ -47,8 +47,14 @@ $(document).ready(function() {
     });
 
 
+    $("#openSources").click(function() {
+          $(".sources").fadeIn(500);
+    });
 
-  
+    $("#closeSources").click(function() {
+          $(".sources").fadeOut(500);
+    });
+
 
 
 });
