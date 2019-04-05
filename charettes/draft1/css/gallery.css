@@ -7,7 +7,6 @@ body {
 }
 
 
-
 #bgmovement {
   position: fixed;
   height: 100vh;
@@ -47,25 +46,54 @@ body {
 }
 
 h1 {
-  padding-top: 20%;
   font-weight: 400;
-  font-size: 8em;
+  font-size: 10em;
 
 }
 
 h5 {
-  padding-top: 2%;
-  font-size: 1em;
+  width: 60%;
+  margin: auto;
+  padding: 3% 0;
+  font-size: 2em;
   font-weight: 300;
 }
 
 #selectPatient {
-  padding-top: 7%;
+  padding-top: 3%;
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 300;
   font-size: 1.5em;
 }
 
+div.titlePosition {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+#scrollDown {
+  font-family: "Roboto", Arial, sans-serif;
+
+}
+
+#textReplace {
+  letter-spacing: 0.01em;
+  font-size: 1.2em;
+}
+
+#textReplaceType {
+  font-style: italic;
+}
 
 /* images for gallery */
 
@@ -101,9 +129,9 @@ h5 {
 
 .overlay {
   position: absolute;
-  opacity: 0.4;
+  opacity: 0.6;
   transition: 0.5s ease;
-  background-blend-mode: multiply;
+  background-blend-mode: overlay;
 }
 
 
