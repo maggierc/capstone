@@ -105,8 +105,8 @@ body {
 }
 
 .marquee div:hover,  #marq4 div:hover,  #marq3 div:hover,  #marq2 div:hover{
-  animation-play-state: paused;
-  /* animation-duration: 20s; */
+  /* animation-play-state: paused; */
+  animation-duration: 20s;
   font-weight: 600;
   cursor: pointer;
 }

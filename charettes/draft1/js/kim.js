@@ -60,20 +60,20 @@ $(document).ready(function() {
         marqStop.css({
             'animation-play-state': 'paused',
             'font-weight': '600',
-            'color' : 'black'
+            'text-shadow' : '0px 0px 5px #fff'
         });
         setTimeout(function(){
           marqStop.animate({ "opacity": "0" }, 500 );
-        }, 1000);
+        }, 1500);
 
         setTimeout(function(){
           marqStop.css({
             'animation-play-state': 'running',
             'font-weight': '200',
-            'color' : 'white'
+            'text-shadow' : 'none'
           });
           marqStop.animate({ "opacity": "1" }, 500 );
-        }, 2000);
+        }, 3000);
     });
 
 
