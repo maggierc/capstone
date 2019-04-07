@@ -59,13 +59,20 @@ $(document).ready(function() {
 
         marqStop.css({
             'animation-play-state': 'paused',
-            'font-weight': '600'
+            'font-weight': '600',
+            'color' : 'black'
         });
+        setTimeout(function(){
+          marqStop.animate({ "opacity": "0" }, 500 );
+        }, 1000);
+
         setTimeout(function(){
           marqStop.css({
             'animation-play-state': 'running',
-            'font-weight': '200'
+            'font-weight': '200',
+            'color' : 'white'
           });
+          marqStop.animate({ "opacity": "1" }, 500 );
         }, 2000);
     });
 
