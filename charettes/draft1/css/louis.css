@@ -55,40 +55,40 @@ body {
 
 @keyframes tanPassive {
   0%  {
-    font-weight: 200;
+    /* font-weight: 200;
     font-family: "Noto Serif SC", serif;
-    text-transform: none;
+    text-transform: none; */
     color: #fff;
-    
+
   }
-  20%  {
+  30%  {
     font-weight: 500;
-    font-family: "Roboto", sans-serif;
-    text-transform: uppercase;
+    /* font-family: "Roboto", sans-serif;
+    text-transform: uppercase; */
     color: #ffff00;
   }
   40%  {
     font-weight: 200;
-    font-family: "Noto Serif SC", serif;
-    text-transform: none;
+    /* font-family: "Noto Serif SC", serif;
+    text-transform: none; */
     color: #fff;
   }
-  60%  {
+  50%  {
     font-weight: 500;
-    font-family: "Roboto", sans-serif;
-    text-transform: uppercase;
+    /* font-family: "Roboto", sans-serif;
+    text-transform: uppercase; */
     color: #ffff00;
   }
   80%  {
     font-weight: 200;
-    font-family: "Noto Serif SC", serif;
-    text-transform: none;
+    /* font-family: "Noto Serif SC", serif;
+    text-transform: none; */
     color: #fff;
   }
   100%  {
     font-weight: 200;
-    font-family: "Noto Serif SC", serif;
-    text-transform: none;
+    /* font-family: "Noto Serif SC", serif;
+    text-transform: none; */
     color: #fff;
   }
 
