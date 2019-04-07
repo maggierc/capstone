@@ -36,8 +36,8 @@ body {
 }
 
 #gallery {
-  height: 60%;
-  margin-top: 10%;
+  height: 70%;
+  padding-top: 10%;
 }
 
 
@@ -60,7 +60,7 @@ h5 {
 }
 
 #selectPatient {
-  padding-top: 3%;
+  padding-top: 7%;
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 300;
   font-size: 1.5em;
@@ -196,3 +196,106 @@ p {
 
 
  */
+
+ /* Medium devices (tablets, 768px and up) */
+ @media (max-width: 768px) {
+
+   div.titlePosition {
+     width: 100%;
+   }
+
+   h1 {
+     font-weight: 400;
+     font-size: 6em;
+
+   }
+
+   h5 {
+     width: 80%;
+     margin: auto;
+     padding: 10% 0;
+     font-size: 1.5em;
+     font-weight: 300;
+   }
+
+   #selectPatient {
+     padding-top: 20%;
+     font-family: "Roboto", Arial, sans-serif;
+     font-weight: 300;
+     font-size: 1.2em;
+   }
+
+   .patient {
+     opacity: 0.25;
+   }
+
+   #cliveGallery .overlay:after {
+     content: 'Clive Wearing';
+     font-size: 2rem;
+     color: white;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     -webkit-transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+   }
+
+   #phineasGallery .overlay:after {
+     content: 'Phineas Gage';
+     font-size: 2rem;
+     color: white;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     -webkit-transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+   }
+
+   #louisGallery .overlay:after {
+     content: 'Louis Leborgne';
+     font-size: 2rem;
+     color: white;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     -webkit-transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+   }
+
+   #kimGallery .overlay:after {
+     content: 'Kim Peek';
+     font-size: 2rem;
+     color: white;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     -webkit-transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+   }
+
+   .overlay {
+     background-blend-mode: normal;
+     opacity: 1;
+   }
+
+   #cliveGallery .overlay {
+     background: #0e2844;
+   }
+
+   #phineasGallery .overlay {
+     background: #6d0021;
+   }
+
+   #louisGallery .overlay {
+     background: #36094f;
+   }
+
+   #kimGallery .overlay {
+     background: #6d2a00;
+   }
+
+  }
