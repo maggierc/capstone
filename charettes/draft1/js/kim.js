@@ -54,5 +54,20 @@ $(document).ready(function() {
           $(".sources").fadeOut(500);
     });
 
+    $(".marquee").click(function() {
+        var marqStop = $(this).find('div');
+
+        marqStop.css({
+            'animation-play-state': 'paused',
+            'font-weight': '600'
+        });
+        setTimeout(function(){
+          marqStop.css({
+            'animation-play-state': 'running',
+            'font-weight': '200'
+          });
+        }, 2000);
+    });
+
 
 });
