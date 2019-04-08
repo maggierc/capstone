@@ -110,3 +110,13 @@ body {
   font-weight: 600;
   cursor: pointer;
 }
+
+#section4 .playText.sectionInfo {
+  transform: matrix(1.5, -0.3, 0, 1, 0, 0);
+    transition: 5s;
+}
+
+#section4 .playText.sectionInfo:hover {
+  transform: matrix(1, 0.3, -0.3, 1.5, 0, 0);
+  transition: 5s;
+}
