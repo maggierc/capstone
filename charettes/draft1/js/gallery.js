@@ -60,7 +60,19 @@ $( document ).ready(function() {
       $('#textReplaceType').css("color", "#fff").text( "" );
     });
 
-
+    $( "h1" ).toggle(function() {
+      $('#clivePreview').fadeOut(400);
+      $('#phineasPreview').fadeIn(400);
+    }, function() {
+      $('#phineasPreview').fadeOut(400);
+      $('#louisPreview').delay(400).fadeIn(400);
+    }, function() {
+      $('#louisPreview').fadeOut(400);
+      $('#kimPreview').delay(400).fadeIn(400);
+    }, function() {
+      $('#kimPreview').fadeOut(400);
+      $('#clivePreview').delay(400).fadeIn(400);
+    });
 
 
 });

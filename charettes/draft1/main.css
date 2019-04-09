@@ -415,6 +415,24 @@ a:hover {
 }
 
 /*  */
+.mobileBanner {
+  display: none;
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  background: white;
+  padding: 5%;
+}
+
+.mobileBanner h2 {
+  font-family: "Roboto", sans-serif;
+  color: #555;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+
+/*  */
 .sources {
  position: fixed;
  height: 100%;
@@ -480,8 +498,12 @@ color: #000;
 
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) {
+  .mobileBanner {
+    display: block;
+  }
+
   #title h1 {
-    padding-top: 20%;
+    padding-top: 35%;
     padding-bottom: 5%;
     font-size: 4em;
   }

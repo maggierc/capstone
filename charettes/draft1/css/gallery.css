@@ -51,6 +51,11 @@ h1 {
 
 }
 
+h1:hover {
+  cursor: pointer;
+
+}
+
 h5 {
   width: 60%;
   margin: auto;
