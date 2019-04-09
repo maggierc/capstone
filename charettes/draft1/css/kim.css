@@ -54,14 +54,14 @@ body {
   position: absolute;
   overflow: hidden;
 
-  animation: marquee 1s linear infinite;
+  animation: marquee 1.5s linear infinite;
   animation-play-state: running;
 }
 
 /* general variations */
 
 #marq2 div {
-  animation: marquee 0.5s linear -2.5s infinite;
+  animation: marquee 1s linear -2.5s infinite;
 }
 
 #marq2 div:first-child {
@@ -69,10 +69,10 @@ body {
 }
 
 #marq3 div {
-  animation: marquee 1s linear -1s infinite;
+  animation: marquee 1.5s linear -1s infinite;
 }
 #marq4 div {
-  animation: marquee 1.5s linear -2s infinite;
+  animation: marquee 2s linear -2s infinite;
 }
 
 .marquee span {
@@ -124,4 +124,20 @@ body {
 
 #section5Effect2 {
   transform: matrix(1, 0.3, -0.3, 2, 0, 0);
+}
+
+#section5 #marq2 div {
+  animation-direction: reverse;
+  animation: marquee 5s linear -2.5s infinite;
+}
+
+#section5 #marq2 div:first-child {
+  animation: marquee 3s linear -2.5s infinite;
+}
+
+#section5 #marq3 div {
+  animation: marquee 10s linear -1s infinite;
+}
+#section5 #marq4 div {
+  animation: marquee 4s linear -2s infinite;
 }
