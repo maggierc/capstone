@@ -81,6 +81,7 @@ a:active {
   font-weight: 100;
   width: 80%;
   margin: auto;
+  text-align: left;
 }
 
 #section5 ul {
@@ -296,7 +297,7 @@ a:hover {
   background: #36094f;
   border-radius: 100%;
   position: fixed;
-  top: 50%;
+  top: 87%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -312,7 +313,7 @@ a:hover {
   border: 1.5px solid #fff;
   border-radius: 100%;
   position: fixed;
-  top: 50%;
+  top: 87%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -328,7 +329,7 @@ a:hover {
   border: 1.5px solid #fff;
   border-radius: 100%;
   position: fixed;
-  top: 50%;
+  top: 87%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -345,7 +346,7 @@ a:hover {
   border: 1.5px solid #fff;
   border-radius: 100%;
   position: fixed;
-  top: 50%;
+  top: 87%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);

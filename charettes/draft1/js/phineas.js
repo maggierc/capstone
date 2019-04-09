@@ -10,7 +10,6 @@ $(document).ready(function() {
 // Math.random() * (max - min) + min
 
   $(".playText span").addClass("shake");
-  $("#section3 .effect").addClass("shake-slow");
   $("#section4 .effect").addClass("shake-hard");
   $("#section5 .effect").addClass("shake-hard");
 
