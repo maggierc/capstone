@@ -58,6 +58,8 @@ body {
   animation-play-state: running;
 }
 
+/* general variations */
+
 #marq2 div {
   animation: marquee 0.5s linear -2.5s infinite;
 }
@@ -84,7 +86,7 @@ body {
 }
 
 
-#section3 .marquee {
+#section3 .marquee, #section5 .marquee {
   height: 3vh;
   width: 80%;
   overflow: hidden;
@@ -95,7 +97,7 @@ body {
   margin: auto;
 }
 
-#section3 .marquee div {
+#section3 .marquee div, #section5 .marquee div {
   display: block;
   width: 200%;
   height: 5vh;
@@ -112,11 +114,14 @@ body {
 }
 
 #section4 .playText.sectionInfo {
-  transform: matrix(1.5, -0.3, 0, 1, 0, 0);
-    transition: 5s;
+  transform: matrix(1, -0.2, 0, 1, 0, 0);
 }
 
-#section4 .playText.sectionInfo:hover {
-  transform: matrix(1, 0.3, -0.3, 1.5, 0, 0);
-  transition: 5s;
+
+#section5Effect1 {
+  transform: matrix(1.5, -0.3, 0, 1, 0, 0);
+}
+
+#section5Effect2 {
+  transform: matrix(1, 0.3, -0.3, 2, 0, 0);
 }

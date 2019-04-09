@@ -499,6 +499,10 @@ color: #000;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
+
+  .navbar {
+    padding: 3% 10%;
+  }
  }
 
 @media (min-width: 768px) {

@@ -298,4 +298,8 @@ p {
      background: #6d2a00;
    }
 
+   .patient:active {
+     opacity: 0.5;
+   }
+
   }
