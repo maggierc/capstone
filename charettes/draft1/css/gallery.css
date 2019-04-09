@@ -16,7 +16,7 @@ body {
   background: url("../../imgs/background.gif");
   background-position: center;
   background-size: cover;
-  opacity: 0.3;
+  opacity: 0.6;
   filter: grayscale(100%);
   mix-blend-mode: overlay;
   /* filter: blur(15px); */

@@ -39,6 +39,10 @@ a:hover {
   color: #ccc;
 }
 
+a:active {
+  color: #000;
+}
+
 
 .navbar {
   padding: 3% 4%;
@@ -62,6 +66,14 @@ a:hover {
   color: #eee;
   border-bottom: 0.5px solid #eee;
 }
+
+.nav-link:active {
+  font-weight: 300;
+  border-bottom: 1px solid #eee;
+  transition: 0s;
+}
+
+
 /*  */
 #section5 .navbar {
   padding: 0;
@@ -93,6 +105,13 @@ a:hover {
   color: #fff;
   border-bottom: 0.5px solid #eee;
 }
+
+#section5 .nav-link:active {
+  font-weight: 300;
+  border-bottom: 1px solid #eee;
+  transition: 0s;
+}
+
 /*  */
 .container {
   height: 100vh;
@@ -359,7 +378,7 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  
+
 }
 
 .ClipOn {
@@ -451,7 +470,9 @@ color: #000;
 
 /* Extra small devices (portrait phones, less than 576px) */
 /* No media query since this is the default in Bootstrap */
+@media (max-width: 576px) {
 
+ }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 
@@ -460,7 +481,7 @@ color: #000;
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) {
   #title h1 {
-    padding-top: 15%;
+    padding-top: 20%;
     padding-bottom: 5%;
     font-size: 4em;
   }
@@ -468,7 +489,15 @@ color: #000;
     font-size: 1.2em;
   }
   .col {
-    padding-top: 15%;
+    padding-top: 20%;
+  }
+
+  #readplayButton0, #readplayButton2, #readplayButton1, #readplayButton3 {
+    top: 90%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
  }
 
