@@ -414,22 +414,6 @@ a:hover {
   100% { content: "TAN"; }
 }
 
-/*  */
-.mobileBanner {
-  display: none;
-  position: fixed;
-  height: 100px;
-  width: 100%;
-  background: white;
-  padding: 5%;
-}
-
-.mobileBanner h2 {
-  font-family: "Roboto", sans-serif;
-  color: #555;
-  font-size: 1em;
-  font-weight: 400;
-}
 
 
 /*  */
