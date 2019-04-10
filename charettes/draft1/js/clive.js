@@ -6,7 +6,7 @@
 
 $(document).ready(function() {
 
-  
+
 
     $('p.playText').each(function() {
 
@@ -33,7 +33,11 @@ $(document).ready(function() {
           "Who are you?",
           "What's going on?",
           "?",
-          "?"
+          "?",
+          "Where did you go?",
+          "Who am I",
+          "When",
+          "Deborah!"
         ];
         var text = myArray[Math.floor(Math.random()*myArray.length)];
         $(this).css({'color':'cyan', 'opacity':'1'});
@@ -65,9 +69,9 @@ $(document).ready(function() {
         // var text = this.innerText;
         var myArray = [
           "What?",
-          "Why?",
-          "How?",
-          "?",
+          "Why",
+          "How",
+          "When",
           "Deborah?",
           "?"
         ];
