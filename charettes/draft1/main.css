@@ -43,6 +43,10 @@ a:active {
   color: #000;
 }
 
+#section1 a {
+  color: #fff;
+}
+
 
 .navbar {
   padding: 3% 4%;
@@ -156,7 +160,7 @@ p {
 
 
 #title p {
-  padding-top: 20%;
+  padding-top: 15%;
   font-size: 1.5rem;
   font-weight: 200;
   width: 80%;
@@ -166,7 +170,7 @@ p {
 
 #scrollDown {
   padding-bottom: 0;
-  padding-top: 5%;
+  padding-top: 10%;
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 100;
   letter-spacing: 0.04em;
@@ -492,7 +496,7 @@ color: #000;
     padding-bottom: 5%;
     font-size: 4em;
   }
-  #title p, .sectionInfo p {
+  #title p, .sectionInfo p,  #section5 .nav-link {
     font-size: 1.2em;
   }
   .col {
