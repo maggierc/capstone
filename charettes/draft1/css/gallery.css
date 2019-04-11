@@ -56,7 +56,7 @@ a:hover {
 h1 {
   font-weight: 400;
   font-size: 10em;
-
+  cursor: default;
 }
 
 
@@ -69,7 +69,7 @@ h5 {
 }
 
 #selectPatient {
-  padding-top: 7%;
+  padding-top: 5%;
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 300;
   font-size: 1.5em;
@@ -92,7 +92,6 @@ p {
 
 #scrollDown {
   font-family: "Roboto", Arial, sans-serif;
-
 }
 
 #textReplace {
@@ -200,6 +199,36 @@ p {
 
 }
 
+/*  */
+
+ .nav {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 300;
+  width: 100%;
+  height: 40px;
+  /* margin: auto; */
+  z-index: 5000;
+  position: absolute;
+  top: 5%;
+  right: 3%;
+}
+
+ .nav-link {
+  color: #444;
+  opacity: 1;
+  font-size: 1.7rem;
+  transition: 0.5s ease;
+}
+
+ .nav-link:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+ .nav-link:active {
+  font-weight: 300;
+  transition: 0s;
+}
 
 /*  */
 .mobileBanner {
@@ -217,6 +246,25 @@ p {
   color: #555;
   font-size: 1em;
   font-weight: 400;
+}
+
+/*  */
+
+/*  */
+#section3 p {
+  text-align: left;
+  font-size: 1.4em;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 5%;
+}
+
+#section3 a {
+  text-decoration: underline;
+}
+
+#section3 a:hover {
+  color: #888;
 }
 
 
@@ -334,5 +382,15 @@ p {
      opacity: 0.5;
      transition: 0;
    }
+
+   .nav {
+    top: auto;
+    bottom: 4%;
+    right: 43%;
+  }
+
+  .nav-link {
+   font-size: 1.7rem;
+ }
 
   }

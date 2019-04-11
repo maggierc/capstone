@@ -73,6 +73,15 @@ $( document ).ready(function() {
       $('#kimPreview').fadeOut(400);
       $('#clivePreview').delay(400).fadeIn(400);
     });
+    // 
+    // $("#openSources").click(function() {
+    //       $(".sources").fadeIn(500);
+    // });
+    //
+    // $("#closeSources").click(function() {
+    //       $(".sources").fadeOut(500);
+    // });
+
 
 
 });
