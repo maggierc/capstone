@@ -46,6 +46,6 @@ body {
 .playText p:hover {
   color: black;
   /* font-size: 5em; */
-  transform: matrix(1.5, -0.1, 0, 1.5, 0, 0);
-  transition: 5s ease-out;
+  transform: matrix(2.5, -0.3, 0, 2.5, 0, 0);
+  transition: 4s cubic-bezier(1,.34,1,.03);
 }
