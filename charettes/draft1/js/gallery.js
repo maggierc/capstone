@@ -5,7 +5,7 @@ $( document ).ready(function() {
       $(".overlay").css("background", "#0e2844");
       $("#cliveOverlay").css("background", "none");
       $('body').css("background", "#0e2844");
-       $('#textReplace').css("color", "#fff").text( "Clive Wearing" );
+       $('#textReplace').css("color", "#fff").text( "Clive Wearing —" );
        $('#textReplaceType').css("color", "#fff").text( "Memory" );
     })
     .mouseleave(function() {
@@ -20,7 +20,7 @@ $( document ).ready(function() {
       $(".overlay").css("background", "#6d0021");
       $("#phineasOverlay").css("background", "none");
       $('body').css("background", "#6d0021");
-      $('#textReplace').css("color", "#fff").text( "Phineas Gage" );
+      $('#textReplace').css("color", "#fff").text( "Phineas Gage —" );
       $('#textReplaceType').css("color", "#fff").text( "Personality" );
     })
     .mouseleave(function() {
@@ -35,7 +35,7 @@ $( document ).ready(function() {
       $(".overlay").css("background", "#36094f");
       $("#louisOverlay").css("background", "none");
       $('body').css("background", "#36094f");
-      $('#textReplace').css("color", "#fff").text( "Louis Leborgne" );
+      $('#textReplace').css("color", "#fff").text( "Louis Leborgne —" );
       $('#textReplaceType').css("color", "#fff").text( "Language" );
     })
     .mouseleave(function() {
@@ -50,7 +50,7 @@ $( document ).ready(function() {
       $(".overlay").css("background", "#6d2a00");
       $("#kimOverlay").css("background", "none");
       $('body').css("background", "#6d2a00");
-      $('#textReplace').css("color", "#fff").text( "Kim Peek" );
+      $('#textReplace').css("color", "#fff").text( "Kim Peek —" );
       $('#textReplaceType').css("color", "#fff").text( "Knowledge" );
     })
     .mouseleave(function() {
@@ -73,7 +73,7 @@ $( document ).ready(function() {
       $('#kimPreview').fadeOut(400);
       $('#clivePreview').delay(400).fadeIn(400);
     });
-    // 
+    //
     // $("#openSources").click(function() {
     //       $(".sources").fadeIn(500);
     // });
