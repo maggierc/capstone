@@ -51,12 +51,19 @@ a:active {
 .navbar {
   padding: 3% 4%;
   font-family: "Roboto", Arial, sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   width: 100%;
   z-index: 500;
   text-align: right;
 }
 
+.navbar-nav {
+  flex-direction: row;
+}
+
+.nav-item {
+  margin-left: 25px;
+}
 
 .nav-link {
   color: #eee;
@@ -77,12 +84,16 @@ a:active {
   transition: 0s;
 }
 
+#titleNav {
+  font-family: "IBM Plex Serif", serif;
+}
+
 
 /*  */
 #section5 .navbar {
   padding: 0;
   font-family: "Roboto", Arial, sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   width: 80%;
   margin: auto;
   text-align: left;
@@ -100,13 +111,14 @@ a:active {
 
 #section5 .nav-link {
   color: #fff;
-  opacity: 1;
-  font-size: 1.5rem;
+  opacity: 0.5;
+  font-size: 1.2rem;
   transition: 0.5s ease;
 }
 
 #section5 .nav-link:hover {
   text-decoration: none;
+  opacity: 1;
   color: #fff;
   border-bottom: 0.5px solid #eee;
 }
@@ -437,7 +449,7 @@ a:hover {
 .sources .navbar {
  padding: 0;
  font-family: "Roboto", Arial, sans-serif;
- font-weight: 100;
+ font-weight: 400;
  width: 80%;
  margin: auto;
 }
@@ -454,13 +466,14 @@ a:hover {
 
 .sources .nav-link {
 color: #000;
- opacity: 1;
- font-size: 1.5rem;
+ opacity: 0.5;
+ font-size: 1.2rem;
  transition: 0.5s ease;
 }
 
 .sources .nav-link:hover {
  text-decoration: none;
+ opacity: 1;
  color: #000;
  border-bottom: 0.5px solid #000;
 }

@@ -59,6 +59,12 @@ h1 {
   cursor: default;
 }
 
+h3 {
+  font-weight: 400;
+  font-size: 4em;
+  padding: 5% 0;
+}
+
 
 h5 {
   width: 60%;
